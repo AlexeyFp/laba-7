@@ -35,7 +35,7 @@ days_entry.insert(0, '7')
 tk.Label(root, text='Максимальная цена (руб.):').grid(row=1, column=0)
 price_entry = tk.Entry(root)
 price_entry.grid(row=1, column=1)
-price_entry.insert(0, '60')
+price_entry.insert(0, '85')
 
 generate_button = tk.Button(root, text='Сгенерировать меню', command=generate_combinations)
 generate_button.grid(row=2, columnspan=2)
